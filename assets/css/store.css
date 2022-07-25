@@ -1,0 +1,275 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 5rem 0;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.text-center{
+  text-align: center;
+  margin: 4rem;
+}
+
+.nombre-sitio {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.nombre-sitio span{
+  color: #2988E0;
+}
+
+.contenedor-navegacion{ 
+  border-top: .1rem solid #C1C1C1;
+}
+
+.nav-principal{
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.galeria .imagen1{
+  margin-top: 20rem;
+  margin-left: 49rem;
+  grid-column-start: span 2;
+}
+
+.galeria .imagen2{
+  margin-top: 20rem;
+  margin-left: 49rem;
+  grid-column-start: span 2;
+}
+
+  .v4_179 {
+    width: 100%;
+    height: 1604px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .mostrar {
+    width: 144px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 15rem;
+    left: 6rem;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+  }
+  .mostrar-categoria {
+    width: 218px;
+    color: rgba(0,0,0,1);
+    position:absolute;
+    top: 20rem;
+    left: 9rem;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 24px;
+    opacity: 1;
+    text-align:start;
+  }
+  .mostrar-producto {
+    width: 214px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 25rem;
+    left: 9rem;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+  }
+  .mostrar-categoria-producto {
+    width: 361px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 30rem;
+    left: 9rem;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v6_265 {
+    width: 186px;
+    color:grey;
+    position: absolute;
+    top: 593px;
+    left: 597px;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+  }
+  .cocina {
+    width: 186px;
+    color: gray;
+    position: absolute;
+    top: 105rem;
+    left: 571px;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v101_4 {
+    width: 181px;
+    color:gray;
+    position: absolute;
+    top: 597px;
+    left: 1098px;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+  }
+  .silla-mesa {
+    width: 181px;
+    color:gray;
+    position: absolute;
+    top: 105rem;
+    left: 1090px;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+  }
+  .categoria {
+    width: 424px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 150rem;
+    left: 60px;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 36px;
+    opacity: 1;
+    text-align: left;
+  }
+  .nosotros {
+    width: 424px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 150rem;
+    left: 533px;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 36px;
+    opacity: 1;
+    text-align: left;
+  }
+  .soporte {
+    width: 424px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 150rem;
+    left: 1032px;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 36px;
+    opacity: 1;
+    text-align: left;
+  }
+  .categorias1 {
+    width: 380px;
+    color: rgba(129,129,129,1);
+    position: absolute;
+    top: 156rem;
+    left: 82px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
+  .categorias2 {
+    width: 380px;
+    color: rgba(129,129,129,1);
+    position: absolute;
+    top: 156rem;
+    left: 552px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
+  .categorias3 {
+    width: 380px;
+    color: rgba(129,129,129,1);
+    position: absolute;
+    top: 156rem;
+    left: 1050px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
+  .copyright {
+    width: 382px;
+    color: rgba(129,129,129,1);
+    position: absolute;
+    top: 1743px;
+    left: 513px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }

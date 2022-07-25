@@ -1,0 +1,235 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*  1REM = 10px */
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Globales */
+
+body{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Playfair Display', serif;
+  margin: 0 0 5rem 0;
+}
+
+h1{
+  font-size: 5rem;
+}
+
+h2{
+  font-size: 4rem;
+}
+
+h3{
+  font-size: 3rem;
+}
+
+.contenedor{
+  max-width: 120rem;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+.nombre-sitio {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.nombre-sitio span{
+  color: #2988E0;
+}
+
+.contenedor-navegacion{ 
+  border-top: .1rem solid #C1C1C1;
+}
+
+.nav-principal{
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.text-center{
+  text-align: center;
+  margin: 4rem;
+}
+
+  .style1{
+    width: 756px;
+    color: rgba(29,149,92,1);
+    position: absolute;
+    top: 310px;
+    left: 154px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 33px;
+    opacity: 1;
+    text-align: center;
+  }
+  .parrafo1{
+    width: 706px;
+    color: rgba(129,129,129,1);
+    position: absolute;
+    top: 364px;
+    left: 173px;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
+  .style2 {
+    width: 667px;
+    color: rgba(29,149,92,1);
+    position: absolute;
+    top: 616px;
+    left: 648px;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 33px;
+    opacity: 1;
+    text-align: center;
+  }
+  .parrafo2 {
+    width: 706px;
+    color: rgba(129,129,129,1);
+    position: absolute;
+    top: 688px;
+    left: 655px;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .style3 {
+    width: 630px;
+    color: rgba(29,149,92,1);
+    position: absolute;
+    top: 922px;
+    left: 155px;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 33px;
+    opacity: 1;
+    text-align: center;
+  }
+  .parrafo3 {
+    width: 706px;
+    color: rgba(129,129,129,1);
+    position: absolute;
+    top: 976px;
+    left: 173px;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .categoria {
+    width: 424px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1321px;
+    left: 60px;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 36px;
+    opacity: 1;
+    text-align: left;
+  }
+  .nosotros {
+    width: 424px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1321px;
+    left: 533px;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 36px;
+    opacity: 1;
+    text-align: left;
+  }
+  .soporte {
+    width: 424px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1321px;
+    left: 1032px;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 36px;
+    opacity: 1;
+    text-align: left;
+  }
+  .categorias1 {
+    width: 380px;
+    color: rgba(129,129,129,1);
+    position: absolute;
+    top: 1393px;
+    left: 82px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
+  .categorias2 {
+    width: 380px;
+    color: rgba(129,129,129,1);
+    position: absolute;
+    top: 1393px;
+    left: 552px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
+  .categorias3 {
+    width: 380px;
+    color: rgba(129,129,129,1);
+    position: absolute;
+    top: 1393px;
+    left: 1050px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
+  .copyright {
+    width: 382px;
+    color: rgba(129,129,129,1);
+    position: absolute;
+    top: 1743px;
+    left: 513px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
